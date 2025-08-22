@@ -1,0 +1,12 @@
+python main.py \
+ --gpu_id=3 \
+ --grid_size=14\
+ --IsDCN=0 \
+ --stego=DAH \
+ --IsESM=1 \
+ --a=5 \
+ --b=5 \
+ --cp_path=/opt/data/helin/Code/new_stn/test_image/test_DAH/199.pth \
+ --save_models_path=/opt/data/helin/Code/new_stn/checkpoints/important/DAH/diff_grid_size/14/ \
+ --logdir=/opt/data/helin/Code/new_stn/log/DAH/diff_grid_size/14/ \
+ --M=60
